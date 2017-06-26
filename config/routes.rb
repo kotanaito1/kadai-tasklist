@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'kadai_tasklist/create'
+
+  get 'kadai_tasklist/destroy'
+
   get 'sessions/new'
 
   get 'sessions/create'
